@@ -2,8 +2,8 @@
 
 $dsn = 'mysql:host=localhost;port=3306;dbname=book_example';
 $username = "root";
-$password = "20644880";
-$options = [];
+$password = "12345";
+$options = array();
 
 
 $pdo = new PDO ($dsn, $username, $password, $options);
