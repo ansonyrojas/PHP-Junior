@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "20644880";
+$password = "12345";
 
 
 //Example (MySQLi Object-Oriented)
