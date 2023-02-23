@@ -9,7 +9,7 @@
 
 		private static $db_host = 'localhost';
 		private static $db_user = 'root';
-		private static $db_pass = '20644880';
+		private static $db_pass = '1234';
 		protected $db_name = 'mydb';
 		protected $query;
 		protected $rows = array();
