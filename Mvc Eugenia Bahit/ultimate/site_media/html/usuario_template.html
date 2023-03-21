@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../site_media/css/base_template.css">
+	<title>ABM de Usuarios: {subtitulo}</title>
+</head>
+<body>
+
+	<div id="cabecera">
+		<h1>Administrador de usuarios</h1>
+		<h2>{subtitulo}</h2>
+	</div>
+
+	<div id="menu">
+		
+		<a href="/eugenia/mvc/{VIEW_SET_USER}" title="Nuevo usuario">Agregar Usuario</a>
+		<a href="/eugenia/mvc/{VIEW_GET_USER}" title="Buscar usuario">Buscar/editar usuario</a>
+		<a href="/eugenia/mvc/{VIEW_DELETE_USER}" title="Borrar usuario">Borrar usuario</a>
+
+	</div>
+
+	<div id="mensaje">
+		{mensaje}
+	</div>
+
+	<div id="formulario">
+			
+			{formulario}
+
+	</div>
+
+</body>
+</html>
