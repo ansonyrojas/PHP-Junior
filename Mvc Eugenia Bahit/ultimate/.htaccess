@@ -1,0 +1,6 @@
+RewriteEngine on
+
+ DirectoryIndex usuarios/controller.php
+
+ RewriteRule ^usuarios usuarios/controller.php
+
